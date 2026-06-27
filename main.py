@@ -1,5 +1,5 @@
 from converter import convert, currencies
-
+import time
 def get_valid_amount() -> float:
     while True:
         amount_input = input("Введите сумму: ").strip()
@@ -31,3 +31,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+time.sleep(8)
